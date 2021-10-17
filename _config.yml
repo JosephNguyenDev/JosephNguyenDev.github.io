@@ -48,27 +48,6 @@ about_content: | # this will include new lines to allow paragraphs
   Hi, I'm Joseph, but everyone calls me Joe. I recently graduated from the University of California - San Diego, and I am looking for an entry level position as either a Full Stack engineer or a Backend engineer. 
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: ISA McISAface
-        link: https://github.com/jonguyen-ucsd/141
-        # link_text: Project Website
-        additional_links:
-          - title:  9-bit intstruction set Architecture
-            icon: fab fa-github
-            url: https://github.com/jonguyen-ucsd/141
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        description: | # this will include new lines to allow paragraphs
-          In this project, my team and I were challenged to create an instruction set architecture with only 9 bits to encode an instruction. We decided on a pseudo-accumulator/aggregator design which allowed us the flexibility of using 16 registers, and 20 instructions without sacrificing the amount of bits we could use for immediate values. We then designed a CPU that was able to accept our assembly language in <mark>System Verilog</mark>. I am proud to say that I wrote the assembler myself in <mark>python</mark>, which allowed us the additional flexibility of being able to use aliases in our language as well as support for instruction jumping.
-      - layout: top-middle
-        title: Walk Walk Revolution
-        description: |
-          For this project, my team created an <mark>Android</mark> app that allowed users to track steps and share walk and route data. This project allowed me to gain experience with the entire software development process from end to finish. I learned skills such as <mark>Software Design Principles</mark> and <mark>Agile Methodologies</mark>.
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -103,6 +82,27 @@ content:
           - Plan, create, and manage quality planning strategies
           - Collect and record quality data for engineering team use
           - Prepare and present reports and metrics to Senior Management
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: ISA McISAface
+        link: https://github.com/jonguyen-ucsd/141
+        # link_text: Project Website
+        additional_links:
+          - title:  9-bit intstruction set Architecture
+            icon: fab fa-github
+            url: https://github.com/jonguyen-ucsd/141
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+          In this project, my team and I were challenged to create an instruction set architecture with only 9 bits to encode an instruction. We decided on a pseudo-accumulator/aggregator design which allowed us the flexibility of using 16 registers, and 20 instructions without sacrificing the amount of bits we could use for immediate values. We then designed a CPU that was able to accept our assembly language in <mark>System Verilog</mark>. I am proud to say that I wrote the assembler myself in <mark>python</mark>, which allowed us the additional flexibility of being able to use aliases in our language as well as support for instruction jumping.
+      - layout: top-middle
+        title: Walk Walk Revolution
+        description: |
+          For this project, my team created an <mark>Android</mark> app that allowed users to track steps and share walk and route data. This project allowed me to gain experience with the entire software development process from end to finish. I learned skills such as <mark>Software Design Principles</mark> and <mark>Agile Methodologies</mark>.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
