@@ -74,7 +74,7 @@ content:
           
       - layout: left
         sub_title: Software Quality Assurance Intern
-        caption: July 2019 - September 2019
+        caption: June 2018 - May 2019
         link: Imgur.com
         description: | # this will include new lines to allow paragraphs
           During my first internship with Imgur, I worked with multiple engineering teams as well as the community and product teams to maintain the quality of Imgur's products. Some of my duties included
@@ -86,6 +86,15 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: Todo List API
+        link: https://github.com/JosephNguyenDev/todo_service
+        additional_links:
+          - title:  Todo List API
+            icon: fab fa-github
+            url: https://github.com/JosephNguyenDev/todo_service
+        description: | # this will include new lines to allow paragraphs
+          This is a simple todo list project I worked on my own to learn and demonstrate my knowledge on <mark>Golang</mark>, <mark>Google Protocol Buffers</mark>, <mark>gRPC</mark> framework, <mark>PostgreSQL</mark>, and <mark>CRUD</mark> rpc calls. 
       - layout: top-middle
         title: ISA McISAface
         link: https://github.com/jonguyen-ucsd/141
